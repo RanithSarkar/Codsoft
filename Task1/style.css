@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+    
+}
+.header{
+    width: 100vw;
+    height: 2.5vw;
+    background-color: #000000;
+    position: absolute;
+    z-index: 5;
+    position: fixed;
+}
+.container{
+    width: 100vw;
+    height: 48.3vw;
+    background-image: linear-gradient(to bottom right, #000000,#070942, #9175ff);
+    position: absolute;
+}
+.image1{
+    position: absolute;
+    width: 59%;
+    display: flex;
+    right: 0;
+    bottom: 0;
+}
+.text{
+    position: absolute;
+    color: #ffffff;
+    top: 30vw;
+    font-size: 5vw;
+    display: flex;
+    left: 2vw;
+}
+.ai{
+    position: absolute;
+    display: flex;
+    left: 10vw;
+    top: 15vw;
+    width: 2vw;
+    
+}
+video{
+    position: absolute;
+    width: 100vw;
+    height: 48.3vw;
+    top: 49vw;
+}
